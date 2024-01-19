@@ -1,4 +1,4 @@
-# GUTSS
+# gutss
 Amy Wu
 
 ## Introduction
