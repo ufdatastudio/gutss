@@ -1,4 +1,5 @@
 # GUTSS
+Amy Wu
 
 ## Introduction
 Welcome to the GUTSS project README. This document provides an overview of the project, its features, and guidelines for usage and contribution.
