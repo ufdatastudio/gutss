@@ -1,1 +1,0 @@
-[{"model":"02AC1E96-CB2B-4296-A4EA-7BDBAE25050A","weights":{"strides":[1],"scalar":"double","shape":[10245],"index":0}},["Bishop","King","Knight","Pawn","Queen","Rook"]]
