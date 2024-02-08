@@ -13,53 +13,44 @@ struct ContentView: View {
     @Query private var items: [Item]
 
     var body: some View {
-        NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
+        ZStack {
+            Image("UFBlue")
+                .resizable().ignoresSafeArea()
+            
+            VStack {
+                
+                Spacer()
+                VStack{
+                    
+                    Text("GUTSS").font(.title)
+                        .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                        .foregroundColor(Color.black)
+                        .padding()
+                    Text("Welcome to Guided Undergraduate Training for Shark Segmentation")
+                        .multilineTextAlignment(.center)
+                        .foregroundColor(Color.black)
+                        .padding()
+                    Button("Get Started") {
+                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
                     }
                 }
-                .onDelete(perform: deleteItems)
-            }
-#if os(macOS)
-            .navigationSplitViewColumnWidth(min: 180, ideal: 200)
-#endif
-            .toolbar {
-#if os(iOS)
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-#endif
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
-            }
-        } detail: {
-            Text("Select an item")
-        }
-    }
-
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
-        }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
+                .padding()
+                .background(Rectangle().foregroundColor(.white).cornerRadius(15.0)).padding()
+                
+                Spacer()
+                Text("Powered by:")
+                    .foregroundColor(Color.white)
+                Image("square-logo")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 100.0)
             }
         }
+        
     }
 }
 
+   
 #Preview {
     ContentView()
         .modelContainer(for: Item.self, inMemory: true)
