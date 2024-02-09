@@ -7,12 +7,15 @@
 
 import SwiftUI
 import SwiftData
+import Vision
+import CoreML
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
-
+    
     var body: some View {
+        
         ZStack {
             Image("UFBlue")
                 .resizable().ignoresSafeArea()
@@ -36,7 +39,10 @@ struct ContentView: View {
                 }
                 .padding()
                 .background(Rectangle().foregroundColor(.white).cornerRadius(15.0)).padding()
-                
+                Image("frame1")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 100.0)
                 Spacer()
                 Text("Powered by:")
                     .foregroundColor(Color.white)

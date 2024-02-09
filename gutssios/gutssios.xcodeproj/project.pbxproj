@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27E07C7A2B7610F100454C0F /* gutssiosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E07C792B7610F100454C0F /* gutssiosApp.swift */; };
+		27E07C7C2B7610F100454C0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E07C7B2B7610F100454C0F /* ContentView.swift */; };
+		27E07C7E2B7610F300454C0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E07C7D2B7610F300454C0F /* Assets.xcassets */; };
+		27E07C812B7610F300454C0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E07C802B7610F300454C0F /* Preview Assets.xcassets */; };
+		27E07C8B2B7610F300454C0F /* gutssiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E07C8A2B7610F300454C0F /* gutssiosTests.swift */; };
+		27E07C952B7610F300454C0F /* gutssiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E07C942B7610F300454C0F /* gutssiosUITests.swift */; };
+		27E07C972B7610F300454C0F /* gutssiosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E07C962B7610F300454C0F /* gutssiosUITestsLaunchTests.swift */; };
+		27E07CA42B76119200454C0F /* pplvsshark.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 27E07CA32B76119200454C0F /* pplvsshark.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27E07C872B7610F300454C0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27E07C6E2B7610F100454C0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27E07C752B7610F100454C0F;
+			remoteInfo = gutssios;
+		};
+		27E07C912B7610F300454C0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27E07C6E2B7610F100454C0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27E07C752B7610F100454C0F;
+			remoteInfo = gutssios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27E07C762B7610F100454C0F /* gutssios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gutssios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E07C792B7610F100454C0F /* gutssiosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gutssiosApp.swift; sourceTree = "<group>"; };
+		27E07C7B2B7610F100454C0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27E07C7D2B7610F300454C0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27E07C802B7610F300454C0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27E07C862B7610F300454C0F /* gutssiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gutssiosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E07C8A2B7610F300454C0F /* gutssiosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gutssiosTests.swift; sourceTree = "<group>"; };
+		27E07C902B7610F300454C0F /* gutssiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gutssiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E07C942B7610F300454C0F /* gutssiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gutssiosUITests.swift; sourceTree = "<group>"; };
+		27E07C962B7610F300454C0F /* gutssiosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gutssiosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		27E07CA32B76119200454C0F /* pplvsshark.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = pplvsshark.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27E07C732B7610F100454C0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E07C832B7610F300454C0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E07C8D2B7610F300454C0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27E07C6D2B7610F100454C0F = {
+			isa = PBXGroup;
+			children = (
+				27E07C782B7610F100454C0F /* gutssios */,
+				27E07C892B7610F300454C0F /* gutssiosTests */,
+				27E07C932B7610F300454C0F /* gutssiosUITests */,
+				27E07C772B7610F100454C0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27E07C772B7610F100454C0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27E07C762B7610F100454C0F /* gutssios.app */,
+				27E07C862B7610F300454C0F /* gutssiosTests.xctest */,
+				27E07C902B7610F300454C0F /* gutssiosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27E07C782B7610F100454C0F /* gutssios */ = {
+			isa = PBXGroup;
+			children = (
+				27E07CA32B76119200454C0F /* pplvsshark.mlmodel */,
+				27E07C792B7610F100454C0F /* gutssiosApp.swift */,
+				27E07C7B2B7610F100454C0F /* ContentView.swift */,
+				27E07C7D2B7610F300454C0F /* Assets.xcassets */,
+				27E07C7F2B7610F300454C0F /* Preview Content */,
+			);
+			path = gutssios;
+			sourceTree = "<group>";
+		};
+		27E07C7F2B7610F300454C0F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				27E07C802B7610F300454C0F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		27E07C892B7610F300454C0F /* gutssiosTests */ = {
+			isa = PBXGroup;
+			children = (
+				27E07C8A2B7610F300454C0F /* gutssiosTests.swift */,
+			);
+			path = gutssiosTests;
+			sourceTree = "<group>";
+		};
+		27E07C932B7610F300454C0F /* gutssiosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27E07C942B7610F300454C0F /* gutssiosUITests.swift */,
+				27E07C962B7610F300454C0F /* gutssiosUITestsLaunchTests.swift */,
+			);
+			path = gutssiosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27E07C752B7610F100454C0F /* gutssios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E07C9A2B7610F300454C0F /* Build configuration list for PBXNativeTarget "gutssios" */;
+			buildPhases = (
+				27E07C722B7610F100454C0F /* Sources */,
+				27E07C732B7610F100454C0F /* Frameworks */,
+				27E07C742B7610F100454C0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gutssios;
+			productName = gutssios;
+			productReference = 27E07C762B7610F100454C0F /* gutssios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27E07C852B7610F300454C0F /* gutssiosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E07C9D2B7610F300454C0F /* Build configuration list for PBXNativeTarget "gutssiosTests" */;
+			buildPhases = (
+				27E07C822B7610F300454C0F /* Sources */,
+				27E07C832B7610F300454C0F /* Frameworks */,
+				27E07C842B7610F300454C0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27E07C882B7610F300454C0F /* PBXTargetDependency */,
+			);
+			name = gutssiosTests;
+			productName = gutssiosTests;
+			productReference = 27E07C862B7610F300454C0F /* gutssiosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27E07C8F2B7610F300454C0F /* gutssiosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E07CA02B7610F300454C0F /* Build configuration list for PBXNativeTarget "gutssiosUITests" */;
+			buildPhases = (
+				27E07C8C2B7610F300454C0F /* Sources */,
+				27E07C8D2B7610F300454C0F /* Frameworks */,
+				27E07C8E2B7610F300454C0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27E07C922B7610F300454C0F /* PBXTargetDependency */,
+			);
+			name = gutssiosUITests;
+			productName = gutssiosUITests;
+			productReference = 27E07C902B7610F300454C0F /* gutssiosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27E07C6E2B7610F100454C0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					27E07C752B7610F100454C0F = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					27E07C852B7610F300454C0F = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 27E07C752B7610F100454C0F;
+					};
+					27E07C8F2B7610F300454C0F = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 27E07C752B7610F100454C0F;
+					};
+				};
+			};
+			buildConfigurationList = 27E07C712B7610F100454C0F /* Build configuration list for PBXProject "gutssios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27E07C6D2B7610F100454C0F;
+			productRefGroup = 27E07C772B7610F100454C0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27E07C752B7610F100454C0F /* gutssios */,
+				27E07C852B7610F300454C0F /* gutssiosTests */,
+				27E07C8F2B7610F300454C0F /* gutssiosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27E07C742B7610F100454C0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E07C812B7610F300454C0F /* Preview Assets.xcassets in Resources */,
+				27E07C7E2B7610F300454C0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E07C842B7610F300454C0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E07C8E2B7610F300454C0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27E07C722B7610F100454C0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E07C7C2B7610F100454C0F /* ContentView.swift in Sources */,
+				27E07C7A2B7610F100454C0F /* gutssiosApp.swift in Sources */,
+				27E07CA42B76119200454C0F /* pplvsshark.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E07C822B7610F300454C0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E07C8B2B7610F300454C0F /* gutssiosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E07C8C2B7610F300454C0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E07C972B7610F300454C0F /* gutssiosUITestsLaunchTests.swift in Sources */,
+				27E07C952B7610F300454C0F /* gutssiosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27E07C882B7610F300454C0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27E07C752B7610F100454C0F /* gutssios */;
+			targetProxy = 27E07C872B7610F300454C0F /* PBXContainerItemProxy */;
+		};
+		27E07C922B7610F300454C0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27E07C752B7610F100454C0F /* gutssios */;
+			targetProxy = 27E07C912B7610F300454C0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27E07C982B7610F300454C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27E07C992B7610F300454C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27E07C9B2B7610F300454C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gutssios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amywu.gutssios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27E07C9C2B7610F300454C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gutssios/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amywu.gutssios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27E07C9E2B7610F300454C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amywu.gutssiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gutssios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gutssios";
+			};
+			name = Debug;
+		};
+		27E07C9F2B7610F300454C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amywu.gutssiosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gutssios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gutssios";
+			};
+			name = Release;
+		};
+		27E07CA12B7610F300454C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amywu.gutssiosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gutssios;
+			};
+			name = Debug;
+		};
+		27E07CA22B7610F300454C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amywu.gutssiosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gutssios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27E07C712B7610F100454C0F /* Build configuration list for PBXProject "gutssios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E07C982B7610F300454C0F /* Debug */,
+				27E07C992B7610F300454C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E07C9A2B7610F300454C0F /* Build configuration list for PBXNativeTarget "gutssios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E07C9B2B7610F300454C0F /* Debug */,
+				27E07C9C2B7610F300454C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E07C9D2B7610F300454C0F /* Build configuration list for PBXNativeTarget "gutssiosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E07C9E2B7610F300454C0F /* Debug */,
+				27E07C9F2B7610F300454C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E07CA02B7610F300454C0F /* Build configuration list for PBXNativeTarget "gutssiosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E07CA12B7610F300454C0F /* Debug */,
+				27E07CA22B7610F300454C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27E07C6E2B7610F100454C0F /* Project object */;
+}
